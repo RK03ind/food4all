@@ -1,0 +1,150 @@
+.container {
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.header {
+  background: #ff6347;
+  padding: 0.8rem 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.logo h1 {
+  color: #fff;
+  font-size: 24px;
+}
+
+.navLinks {
+  list-style: none;
+  margin-left: auto;
+  margin-right: 1.5rem;
+  /* display: flex; */
+  /* gap: 20px; */
+}
+
+.navLinks li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btn {
+  background: #fff;
+  color: #ff6347;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.btnWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.hero {
+  background: url("./assets/hero-bg.jpg") no-repeat center center/cover;
+  color: #fff;
+  padding: 135px 0;
+}
+
+.heroContent {
+  max-width: 880px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 24px;
+}
+
+.heroBtn {
+  background: #ff6347;
+  color: #fff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 0.85rem;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background: #f4f4f4;
+  padding: 50px 0;
+}
+
+.stat {
+  text-align: center;
+}
+
+.stat p {
+  font-weight: 700;
+  font-size: large;
+}
+
+.stat h3 {
+  font-size: 36px;
+  color: #ff6347;
+}
+
+.howItWorks {
+  padding: 50px 0;
+}
+
+.steps {
+  display: flex;
+  justify-content: space-around;
+}
+
+.step {
+  width: 30%;
+}
+
+.step h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.partners {
+  background: #f4f4f4;
+  padding: 50px 0;
+}
+
+.partnerLogos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.partnerLogo {
+  width: 20%;
+  height: 100px;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 20px 0;
+}
